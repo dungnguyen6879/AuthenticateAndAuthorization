@@ -1,4 +1,4 @@
-﻿using JWTAuthentication.Authentication;
+﻿using CheckAuthen.Authentication;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -11,7 +11,7 @@ using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace JWTAuthentication.Controllers
+namespace CheckAuthen.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

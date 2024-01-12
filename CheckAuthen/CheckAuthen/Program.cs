@@ -1,4 +1,4 @@
-using JWTAuthentication.Authentication;
+using CheckAuthen.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace JWTAuthentication.Authentication
+namespace CheckAuthen.Authentication
 {
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {

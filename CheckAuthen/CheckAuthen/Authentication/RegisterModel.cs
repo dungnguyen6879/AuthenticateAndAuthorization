@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace JWTAuthentication.Authentication
+namespace CheckAuthen.Authentication
 {
     public class RegisterModel
     {

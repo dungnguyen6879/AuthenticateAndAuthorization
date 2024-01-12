@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using CheckAuthen;
-using JWTAuthentication.Authentication;
+using CheckAuthen.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
-namespace JWTAuthentication.Controllers
+namespace CheckAuthen.Controllers
 {
     [Authorize(Roles = UserRoles.Admin)]
     [ApiController]

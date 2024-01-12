@@ -1,4 +1,4 @@
-﻿namespace JWTAuthentication.Authentication
+﻿namespace CheckAuthen.Authentication
 {
     public static class UserRoles
     {
